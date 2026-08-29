@@ -273,7 +273,7 @@ function fix(noOdo = false) {
     }
     if (!noOdo) updateOdo();
 }
-
+console.log("BEFORE CHART");
 function renderChart() {
     chart = Highcharts.chart({
         chart: {
@@ -323,3 +323,4 @@ function renderChart() {
         ]
     })
 }
+console.log("AFTER CHART");
