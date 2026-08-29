@@ -322,6 +322,9 @@ function renderChart() {
             }
         ]
     })
+    
+    console.log("TEST CHART =", testChart);
+    console.log("CONTAINER =", document.getElementById("counter-chart"));
 }
 console.log("AFTER CHART");
 console.log("chart =", chart);
