@@ -275,7 +275,7 @@ function fix(noOdo = false) {
 }
 
 function renderChart() {
-    chart = new Highcharts.chart({
+    chart = Highcharts.chart({
         chart: {
             renderTo: 'chart',
             type: 'spline',
