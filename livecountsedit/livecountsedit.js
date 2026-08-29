@@ -266,7 +266,7 @@ function fix(noOdo = false) {
 }
 
 function renderChart() {
-    chart = new Highcharts.chart({
+    chart = Highcharts.chart({
         chart: {
             renderTo: 'counter-chart',
             type: 'spline',
