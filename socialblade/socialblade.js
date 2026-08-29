@@ -324,3 +324,5 @@ function renderChart() {
     })
 }
 console.log("AFTER CHART");
+console.log("chart =", chart);
+console.log("container =", document.getElementById("counter-chart"));
